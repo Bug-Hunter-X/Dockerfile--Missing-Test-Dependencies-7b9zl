@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: failing to install required dependencies for testing. The original Dockerfile attempts to run unit tests using `unittest`, but the necessary packages are not installed.  The solution provides a corrected Dockerfile that includes the installation of the `unittest` framework.
